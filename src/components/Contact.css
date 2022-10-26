@@ -1,0 +1,25 @@
+.container {
+    padding: 4rem;
+    background: rgb(8, 8, 8);
+    color: #fff;
+    font-size: 20px;
+}
+.address {
+    float: left;
+    width: 50%;
+    font-size: 16px;
+}
+.contacts {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+h3, h5 {
+    padding: 20px 10px;
+}
+.fa-location-dot, .fa-phone, .fa-envelope {
+    color: #70E7D1;
+    font-size: 20px;
+    padding-right: 10px;
+    /* --fa-animation-duration: 10s; */ 
+}

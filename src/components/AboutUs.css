@@ -1,0 +1,40 @@
+.about-container {
+    padding: 6rem;
+    background: rgb(8, 8, 8);
+    text-align: center;
+}
+
+.reveal {
+    transform: scale(0);
+    transition: all 2s ease;
+    
+    
+}
+.reveal.active {
+    transform: scale(1);
+    color: #6CFCF1;   
+}
+
+img {
+    max-width: 100%;
+    height: 200px;
+    padding: 50px;
+}
+.content.reveal {
+    transform: translateY(150px);
+    transition: all 2s ease;
+    padding-top: 20px;
+}
+.content.reveal.active {
+    transform: translateY(0px);
+} 
+.logos.reveal {
+    transform: translateY(150px);
+    transition: all 1s ease;
+    opacity: 0;
+}
+.logos.reveal.active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+

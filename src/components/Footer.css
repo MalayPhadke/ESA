@@ -1,0 +1,25 @@
+.footer {
+    padding: 2rem;
+    background: rgb(8, 8, 8);
+    color: #fff;
+    text-align: center; 
+}
+.links{ float: left; width: 33%;     text-decoration: none;   }
+.contact{ float: right; width: 33%; }
+.credits{ display: inline-block; width: 33%; padding-top: 50px;}
+
+@media screen and (max-width: 960px) {
+    .links{ float: none; width: 100%; }
+    .contact{ float: none; width: 100%; }
+    .credits{ display: block; width: 100%; }
+}
+
+.fa-instagram, .fa-linkedin{
+    color: rgb(20, 20, 227);
+    font-size: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.fa-instagram:hover, .fa-linkedin:hover{
+    color: aqua;
+}
