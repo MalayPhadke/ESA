@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Team.css";
+import "./Team.scss";
 import TeamContainer from './TeamContainer';
+
 
 function Team(props) {
   const closeTeam = () => {
@@ -12,16 +14,17 @@ function Team(props) {
           <div class="leftright"></div>
           <div class="rightleft"></div>
         </div></h1>
-        <div className="image-container">
-        <TeamContainer src={require("../images/team/chaiperson.jpg")} content="Chairperson" />
-        <TeamContainer src={require("../images/team/vice chaiperson.jpg")} content="Vice Chairperson" />
-        <TeamContainer src={require("../images/team/tech1.jpg")} content="Technical Head" />
-        <TeamContainer src={require("../images/team/tech2.jpg")} content="Technical Head" />
-        <TeamContainer src={require("../images/team/tech3.jpg")} content="Technical Head" />
-        <TeamContainer src={require("../images/team/finance1.jpg")} content="Finance Head" />
-        <TeamContainer src={require("../images/team/secretary1.jpg")} content="Secretary" />
-        </div>
+      <div className="img-container">
+        <TeamContainer text={"Chairperson"} info={"Chetan Patil"} num={1}/>
+        <TeamContainer text={"Vice Chairperson"} info={"Omkar Lokre"}num={2}/>
+        <TeamContainer text={"Technical Head"} info={"Malay Phadke"}num={3}/>
+        <TeamContainer text={"Technical Head"} info={"Sonu Sahu"}num={4}/>
+        <TeamContainer text={"Technical Head"} info={"Saket Lad"}num={5}/>
+        <TeamContainer text={"Finance Head"} info={"Om Patil"}num={6}/>
+        <TeamContainer text={"Secretary"} info={"Mayuresh Pitale"}num={7}/>
+        
       </div>
+    </div>
   )
 }
 

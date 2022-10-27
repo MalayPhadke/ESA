@@ -3,7 +3,6 @@ import "./AboutUs.css";
 import aicte from "../images/AICTE.png";
 import spices from "../images/SPICES.png";
 import esa from "../images/esa.png"
-
 function AboutUs() {
   return (
     <div className='about-container' id='about'>
