@@ -33,7 +33,7 @@
     position: relative;
     transform: translateX(-150px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 1s ease;
   }
   .cards__items.reveal.active {
     transform: translateX(0);
@@ -108,12 +108,36 @@
     padding: 20px 30px 30px;
   }
   
+  .cards__item__title {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+  }
   .cards__item__text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
   }
-  
+  .cards__item__link {
+    font-size: 15px;
+    text-decoration: none;
+    color:rgb(10, 10, 10);
+  }
+  button {
+    background-color: #1f98f4;
+    border: 1px solid #1f98f4;
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    transition: all 0.3s ease-out;
+    background: aqua;
+    transition: 250ms;
+  }
+
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
@@ -131,4 +155,5 @@
       margin-bottom: 2rem;
     }
   }
+  
   

@@ -22,7 +22,12 @@ function Team(props) {
         <TeamContainer text={"Technical Head"} info={"Saket Lad"}num={5}/>
         <TeamContainer text={"Finance Head"} info={"Om Patil"}num={6}/>
         <TeamContainer text={"Secretary"} info={"Mayuresh Pitale"}num={7}/>
-        
+      </div>
+      <div className="faculty">
+        <h3>Our Faculty Coordinatiors</h3>
+        <div className="content">
+          
+        </div>
       </div>
     </div>
   )

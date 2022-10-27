@@ -1,8 +1,6 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import event1 from "../images/AICTE.png";
-import event2 from "../images/SPICES.png";
 
 function Cards() {
   return (
@@ -12,15 +10,17 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items reveal'>
             <CardItem
-              src={event1}
+              src=""
+              label="Technical"
               text='Join with your friends for fun day of simulation, testing and troubleshooting'
-              label='Tech Hunt'
+              title='Tech Hunt'
               path='/events'
             />
             <CardItem
-              src={event2}
+              src=""
+              label="Technical"
               text='Think you are have good knowledge of circuit? Compete with others to show them whos best!'
-              label='Tech KBC'
+              title='Tech KBC'
               path='/events'
             />
           </ul>

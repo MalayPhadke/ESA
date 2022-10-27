@@ -12,6 +12,7 @@
 .contacts {
     padding: 20px;
     float: left;
+    font-size: 20x;
     width: 50%;
 }
 h3, h5 {
@@ -22,4 +23,29 @@ h3, h5 {
     font-size: 20px;
     padding-right: 10px;
     /* --fa-animation-duration: 10s; */ 
+}
+
+.address.reveal {
+    transform: translateX(-500px);
+    transition: all 1s ease;
+}
+.address.reveal.active {
+    transform: translateX(0px);
+}
+
+.contacts.reveal {
+    transform: translateX(-500px);
+    transition: all 1s ease;
+}
+.contacts.reveal.active {
+    transform: translateX(0px);
+}
+
+@media screen and (max-width: 768px){
+    .address, h6{
+        font-size: 15px;
+    }
+    .fa-location-dot, .fa-phone, .fa-envelope {
+        font-size: 12px;
+    }
 }

@@ -30,6 +30,7 @@ video {
   }
   
   .hero-container > p {
+    text-align: center;
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
@@ -45,21 +46,81 @@ video {
     margin: 6px;
   }
   
-  @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-      font-size: 40px;
-      margin-top: -150px;
-    }
+  span {
+    font-size: 60px;
+    font-weight: bold;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 1px;
+    width: auto;
+    -webkit-transition: width 1s; /* Safari */
+    transition: width 1s;
   }
-  
+  .span-1 {
+     width: 33px; 
+  }
+  .span-2 {
+    width: 32px;
+  }
+  .span-3 {
+    width: 36px;
+  }
+  .display:hover span.span-1 {
+    width: 300px;
+    color: aqua;
+  }
+  .display:hover span.span-2 {
+    width: 250px;
+    color: aqua;
+  }
+  .display:hover span.span-3 {
+    width: 300px;
+    color: aqua;
+  }
+
   @media screen and (max-width: 768px) {
+    span {
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+      overflow: hidden;
+      display: block;
+      float: left;
+      margin-right: 1px;
+      width: auto;
+      -webkit-transition: width 1s; /* Safari */
+      transition: width 1s;
+    }
+    .span-1 {
+      width: 10px;
+    }
+    .span-2 {
+      width: 10px;
+    }
+    .span-3 {
+      width: 13px;
+    }
+    .display:hover span.span-1 {
+      width: 95px;
+      color: aqua;
+    }
+    .display:hover span.span-2 {
+      width: 80px;
+      color: aqua;
+    }
+    .display:hover span.span-3 {
+      width: 100px;
+      color: aqua;
+    }
     .hero-container > h1 {
       font-size: 20px;
       margin-top: -100px;
     }
   
     .hero-container > p {
-      font-size: 30px;
+      font-size: 10px;
+      text-align: center;
     }
   
     .btn-mobile {
@@ -70,4 +131,26 @@ video {
     .btn {
       width: 100%;
     }
-  }
+}
+/* .effect {
+    font-size: 6em;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+  
+.effect:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #001c52,
+                0 0 25px #0313f4,
+                0 0 50px #0313f4,
+                0 0 100px #0313f4;
+} */
+
+
+
+
+

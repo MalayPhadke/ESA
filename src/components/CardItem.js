@@ -14,7 +14,9 @@ function CardItem(props) {
             />
           </figure>
           <div className='cards__item__info'>
+            <h1 className='cards__item__title'>{props.title}</h1>
             <h5 className='cards__item__text'>{props.text}</h5>
+            <button><a href="/event" className="cards__item__link">Learn More</a></button>
           </div>
         </Link>
       </li>
