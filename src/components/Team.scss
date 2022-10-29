@@ -2,7 +2,9 @@
 
 $primary-color: #45A29E;
 $easing: all 0.5s cubic-bezier(0.55,0,.1,1);
-$base-size: 17rem;
+$base-size: 23rem;
+$base-size-mobile: 10rem;
+
 
 $urls: (url("../images/team/chairperson.jpg"), 
 		url("../images/team/vice chairperson.jpg"),
@@ -38,15 +40,9 @@ $urls: (url("../images/team/chairperson.jpg"),
 			  transition:
 				$easing;
 			}
-
-			.text > p {
+			.text > a {
 				opacity: 1;
 			}
-
-			.text > a{
-				opacity: 1;
-			}
-
 		  }
 	}
 }
@@ -62,7 +58,7 @@ $urls: (url("../images/team/chairperson.jpg"),
     top: 50%;
     margin-top: -($base-size / 4);
     margin-left: -($base-size / 4);
-    font-size: 0.8rem;
+    font-size: 15px;
 	font-family: Raleway, sans-serif;
     text-align: center;
     color: #fff;
@@ -83,13 +79,12 @@ $urls: (url("../images/team/chairperson.jpg"),
     top: 60%;
     margin-top: -($base-size / 4);
     margin-left: -($base-size / 4);
-    font-size: 15px;
+    font-size: 20px;
 	text-size-adjust: 50%;
 	font-family: Raleway, sans-serif;
     text-align: center;
     color: #fff;
     transition: $easing;
-	opacity: 0;
 }
 
 .text > a{
@@ -102,7 +97,7 @@ $urls: (url("../images/team/chairperson.jpg"),
     top: 70%;
     margin-top: -($base-size / 4);
     margin-left: -($base-size / 4);
-    font-size: 15px;
+    font-size: 20px;
 	font-family: Raleway, sans-serif;
     text-align: center;
     color: #fff;
@@ -110,4 +105,52 @@ $urls: (url("../images/team/chairperson.jpg"),
 	opacity: 0;
 }
 
-		
+
+@media (max-width: 960px){
+	@for $i from 1 through length($urls){
+		$url: nth($urls, $i);
+		.badge-#{$i} {
+			width: $base-size-mobile;
+			height: $base-size-mobile;
+			&:hover {
+				.text {
+				  width: $base-size-mobile;
+				  line-height: $base-size-mobile;
+				  height: $base-size-mobile;
+				  margin-top: -($base-size-mobile / 2);
+				  margin-left: -($base-size-mobile / 2);
+				  font-size: 13px;
+				}
+			  }
+			  .text > p {
+				font-size: 10px;
+			  }
+			  .text > a > i {
+				font-size: 15px;
+				pointer-events: all;
+				color: aqua;
+			  }
+			  
+		}
+	}
+	.text {
+		width: ($base-size-mobile / 2);
+    	height: ($base-size-mobile / 2);
+    	line-height: ($base-size-mobile / 2);
+    	margin-top: -($base-size-mobile / 4);
+    	margin-left: -($base-size-mobile / 4);
+		transform: rotate(-180deg) translate(-($base-size-mobile / 2)) rotate(180deg);
+		font-size: 8px;
+	}
+	.text > p {
+		font-size: 10px;
+		top: 62%;
+	}
+	.text > a {
+		top: 78%;
+		left: 60%;
+		font-size: 5px;
+		pointer-events: none;
+		// opacity: 0;
+	}
+}

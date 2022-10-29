@@ -4,15 +4,11 @@
     color: #fff;
     text-align: center; 
 }
-.links{ float: left; width: 33%;     text-decoration: none;   }
+.copyright{ float: left; width: 33%; }
 .contact{ float: right; width: 33%; }
 .credits{ display: inline-block; width: 33%; padding-top: 50px;}
-
-@media screen and (max-width: 960px) {
-    .links{ float: none; width: 100%; }
-    .contact{ float: none; width: 100%; }
-    .credits{ display: block; width: 100%; }
-}
+a {text-decoration: none; color: blue;}
+a:hover {color: aqua;}
 
 .fa-instagram, .fa-linkedin{
     color: rgb(20, 20, 227);
@@ -22,4 +18,10 @@
 }
 .fa-instagram:hover, .fa-linkedin:hover{
     color: aqua;
+}
+
+@media screen and (max-width: 960px) {
+    .copyright{ float: none; width: 100%; }
+    .contact{ float: none; width: 100%; text-align: center;}
+    .credits{ display: block; width: 100%; text-align: center;}
 }

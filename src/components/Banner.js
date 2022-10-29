@@ -12,15 +12,10 @@ function Banner() {
       <div class="display">
         <span class="span-1">Electronics</span>&nbsp;<span class="span-2">Student's</span>&nbsp;<span class="span-3">Association</span>
       </div>
-      {/* <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          Learn More
-        </Button>
-      </div> */}
+      <div class="bulb-hover">
+        <div class="bulb-area1"></div>
+        <div class="bulb-area2"></div>    
+      </div>
     </div>
   );
 }
