@@ -21,7 +21,7 @@ img {
     padding: 50px;
 }
 .content.reveal {
-    transform: translateY(150px);
+    transform: translateY(300px);
     transition: all 2s ease;
     padding-top: 20px;
 }
@@ -29,7 +29,7 @@ img {
     transform: translateY(0px);
 } 
 .logos.reveal {
-    transform: translateY(150px);
+    transform: translateY(300px);
     transition: all 1s ease;
     opacity: 0;
 }
