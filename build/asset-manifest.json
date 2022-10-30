@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.30278533.css",
+    "main.js": "/static/js/main.6106af69.js",
+    "static/js/787.1431733a.chunk.js": "/static/js/787.1431733a.chunk.js",
+    "static/media/chairperson.jpg": "/static/media/chairperson.3dd4d9eafb7aeaaaad0f.jpg",
+    "static/media/circuit.mp4": "/static/media/circuit.1258cec27e683388724c.mp4",
+    "static/media/tech2.jpg": "/static/media/tech2.c4ae59d225160fff637e.jpg",
+    "static/media/secretary1.jpg": "/static/media/secretary1.f7d39d1b535e50e5da6f.jpg",
+    "static/media/vice chairperson.jpg": "/static/media/vice chairperson.f1b8c8d7660f8892abe7.jpg",
+    "static/media/tech1.jpg": "/static/media/tech1.151d5fa8731932706ceb.jpg",
+    "static/media/finance1.jpg": "/static/media/finance1.fcc1b5f9ba528e17eef8.jpg",
+    "static/media/tech3.jpg": "/static/media/tech3.a5569443d81b129eca90.jpg",
+    "static/media/esa.png": "/static/media/esa.521202242c579d87dfe4.png",
+    "static/media/AICTE.png": "/static/media/AICTE.0c9204193f620d34780f.png",
+    "static/media/SPICES.png": "/static/media/SPICES.9103a7ec77bb28cc4997.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.30278533.css.map": "/static/css/main.30278533.css.map",
+    "main.6106af69.js.map": "/static/js/main.6106af69.js.map",
+    "787.1431733a.chunk.js.map": "/static/js/787.1431733a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30278533.css",
+    "static/js/main.6106af69.js"
+  ]
+}
