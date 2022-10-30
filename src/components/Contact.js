@@ -3,7 +3,8 @@ import "./Contact.css"
 
 function Contact() {
   return (
-        <div className='container' id="contact">
+    <section id="contact">
+        <div className='container'>
             <h1 className="title reveal">Contact Us</h1>
             <div className="address reveal">
                 <h3><i class="fa-solid fa-location-dot fa-bounce"></i>Address</h3>
@@ -16,6 +17,7 @@ function Contact() {
                 <h6><i class="fa-regular fa-envelope fa-shake"></i>Email - </h6>
             </div>
         </div>
+    </section>
   )
 }
 

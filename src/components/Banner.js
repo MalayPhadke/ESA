@@ -6,7 +6,8 @@ import video from '../images/circuit.mp4';
 
 function Banner() {
   return (
-    <div className='hero-container' id="home">
+    <section id="home">
+    <div className='hero-container'>
       <video src={video} autoPlay loop muted/>
       <p>We Are</p>
       <div class="display">
@@ -17,6 +18,7 @@ function Banner() {
         <div class="bulb-area2"></div>    
       </div>
     </div>
+    </section>
   );
 }
 

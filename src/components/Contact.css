@@ -31,7 +31,7 @@ h5 {
 }
 
 .address.reveal {
-    transform: translateX(-500px);
+    transform: translateX(-1000px);
     transition: all 1s ease;
 }
 .address.reveal.active {
@@ -39,7 +39,7 @@ h5 {
 }
 
 .contacts.reveal {
-    transform: translateX(-500px);
+    transform: translateX(-1000px);
     transition: all 1s ease;
 }
 .contacts.reveal.active {

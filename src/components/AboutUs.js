@@ -5,7 +5,8 @@ import spices from "../images/SPICES.png";
 import esa from "../images/esa.png"
 function AboutUs() {
   return (
-    <div className='about-container' id='about'>
+    <section id="about">
+    <div className='about-container'>
         <h1 className='reveal'>About E-ESA</h1>
           {/* <span>A</span>
           <span>B</span>
@@ -25,6 +26,7 @@ function AboutUs() {
           <img src={spices} alt="SPICES"/>
         </div>
     </div>
+    </section>
   )
 }
 

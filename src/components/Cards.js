@@ -4,7 +4,8 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='cards' id='events'>
+    <section id='events'>
+    <div className='cards'>
       <h1 className='title reveal'>Check out our Upcoming Events</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -27,6 +28,7 @@ function Cards() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

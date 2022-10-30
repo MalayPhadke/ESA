@@ -33,38 +33,22 @@ function Navbar(props) {
               </HashLink>
             </li>
             <li className='nav-item'>
-              <HashLink
-                to='#about'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <HashLink to='#about' className='nav-links' onClick={closeMobileMenu}>
                 About Us
               </HashLink>
             </li>
             <li className='nav-item'>
-              <HashLink
-                to='#events'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <HashLink to='#events'  className='nav-links' onClick={closeMobileMenu}>
                 Events
               </HashLink>
             </li>
             <li className='nav-item'>
-              <HashLink
-                to='#contact'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <HashLink to='#contact' className='nav-links' onClick={closeMobileMenu}>
                 Contact Us
               </HashLink>
             </li>
             <li className='nav-item'>
-              <HashLink
-                to='#team'
-                className='nav-links'
-                onClick={showTeam}
-              >
+              <HashLink to='#team'  className='nav-links' onClick={showTeam}>
                 Team
               </HashLink>
             </li>
