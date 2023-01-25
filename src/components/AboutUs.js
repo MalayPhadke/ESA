@@ -16,8 +16,8 @@ function AboutUs() {
           <span></span> */}
         <div className='content reveal'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto impedit aperiam a, ex minima distinctio veniam harum voluptates illo vitae natus est obcaecati molestiae mollitia praesentium quos officiis vel.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem animi odit necessitatibus velit corrupti vero, iure quae itaque eius veritatis eaque quibusdam magnam iusto eos amet cumque eligendi et?
+          The Electronics Students Association (ESA) organizes a range of activities throughout the year. Its technical paper-presentation contests, sports events and cultural activities are marked by active participation. Guest lectures by eminent personnel from industry are also conducted. Our students from Electronics Department were ranked third at the national level robotics competition in “Robocon 2005″ and they put up a good performance in 2006, 2007 and 2008 as well.
+          Students are constantly motivated to take up challenging tasks and engage in practical problem solving. They actively participate in the events conducted by organizations like the IEEE and update their knowledge in the field of their interest
           </p>
         </div>
         <div className='logos reveal'>
