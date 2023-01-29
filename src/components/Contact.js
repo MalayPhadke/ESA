@@ -12,9 +12,9 @@ function Contact() {
                 <p className="addr">Bhavan’s Campus, Munshi Nagar,<br></br>Andheri (West), Mumbai 400 058</p>
             </div>
             <div className="contacts reveal">
-                <h6><i class="fa-solid fa-phone fa-shake"></i>Chetan Patil - 1234567890</h6>
-                <h6><i class="fa-solid fa-phone fa-shake"></i>Omkar Lokre - 1234567890</h6>
-                <h6><i class="fa-regular fa-envelope fa-shake"></i>Email - </h6>
+                <h6><i class="fa-solid fa-phone"></i>Chetan Patil - 9967695037</h6>
+                <h6><i class="fa-solid fa-phone"></i>Omkar Lokre - 8454077889</h6>
+                {/* <h6><i class="fa-regular fa-envelope fa-shake"></i>Email - </h6> */}
             </div>
         </div>
     </section>

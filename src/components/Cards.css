@@ -118,7 +118,7 @@
     font-size: 18px;
     line-height: 24px;
   }
-  .cards__item__link {
+  .cards__item__link, .cards__item__link:hover {
     font-size: 15px;
     text-decoration: none;
     color:rgb(10, 10, 10);
@@ -137,7 +137,6 @@
     background: aqua;
     transition: 250ms;
   }
-
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;

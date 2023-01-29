@@ -18,3 +18,43 @@
 * {
   color: #C5C6C7;
 }
+
+.techno-hunt {
+  background-color: black;
+  padding: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+h1.techno-hunt {
+  padding-left: 18em;
+}
+h3.tech {
+  padding-left: 11em;
+}
+p.tech {
+  padding-left: 14em;
+  padding-right: 14em;
+}
+.events {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+  
+table {
+  border: 2px solid aqua;
+  width: 800px;
+  height: 200px;
+}
+  
+th {
+  border: 1px solid black;
+
+}
+  
+td {
+  text-align: center;
+  padding: 1rem;
+}

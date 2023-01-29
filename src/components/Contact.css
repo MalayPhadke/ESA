@@ -21,7 +21,9 @@ h3 {
 h5 {
     padding: 10px 10px;
     font-size: 20px;
-
+}
+h6 {
+    font-size: 18px;
 }
 .fa-location-dot, .fa-phone, .fa-envelope {
     color: #70E7D1;

@@ -22,7 +22,7 @@ img {
 }
 .content.reveal {
     transform: translateY(300px);
-    transition: all 2s ease;
+    transition: all 1s ease;
     padding-top: 20px;
 }
 .content.reveal.active {

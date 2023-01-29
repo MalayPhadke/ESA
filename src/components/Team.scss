@@ -8,8 +8,15 @@ $base-size-mobile: 10rem;
 
 $urls: (url("../images/team/chairperson.jpg"), 
 		url("../images/team/vice chairperson.jpg"),
-		url("../images/team/tech1.jpg"), url("../images/team/tech2.jpg"), url("../images/team/tech3.jpg"),
-		url("../images/team/finance1.jpg"), url("../images/team/secretary1.jpg"));
+		url("../images/team/secretary1.jpg"), url("../images/team/secretary2.jpg"),
+		url("../images/team/tech1.jpg"), url("../images/team/tech2.jpg"), url("../images/team/tech3.jpg"), url("../images/team/tech4.jpg"), 
+		url("../images/team/event1.jpg"), url("../images/team/event2.jpg"),
+		url("../images/team/finance1.jpg"), url("../images/team/finance2.jpg"),
+		url("../images/team/pr1.jpg"), url("../images/team/pr2.jpg"),
+		url("../images/team/op1.jpg"), url("../images/team/op2.jpg"),
+		url("../images/team/marketing1.png"), url("../images/team/marketing2.jpg"),
+		url("../images/team/subcom1.jpg"), url("../images/team/subcom2.jpg"),
+		url("../images/team/social-media1.jpg"));
 
 @for $i from 1 through length($urls){
 	$url: nth($urls, $i);

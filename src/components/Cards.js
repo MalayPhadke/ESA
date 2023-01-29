@@ -6,7 +6,7 @@ function Cards() {
   return (
     <section id='events'>
     <div className='cards'>
-      <h1 className='title reveal'>Check out our Upcoming Events</h1>
+      <h1 className='title reveal'>Check out our Latest Events!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items reveal'>
@@ -14,8 +14,8 @@ function Cards() {
               src=""
               label="Technical"
               text='Join with your friends for fun day of simulation, testing and troubleshooting'
-              title='Tech Hunt'
-              path='/events'
+              title='Techno Hunt'
+              path='/techno-hunt'
             />
             <CardItem
               src=""
@@ -27,6 +27,7 @@ function Cards() {
           </ul>
         </div>
       </div>
+      <h1 className="title reveal"><a href="/all-events">Show all Events <i className="fa-solid fa-arrow-right" /></a></h1>
     </div>
     </section>
   );

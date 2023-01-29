@@ -4,6 +4,8 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
 import { useState } from 'react';
+import TechnoHunt from "./components/TechnoHunt";
+import Events from './Events';
 
 function App() {
   const [renderTeam, setRenderTeam] = useState(false);
@@ -15,6 +17,14 @@ function App() {
           <Route
             path='/'
             element={<Home renderTeam={renderTeam} setRenderTeam={setRenderTeam}/>}
+          />
+          <Route
+          path="/techno-hunt"
+          element={<TechnoHunt />}
+          />
+          <Route
+          path="/all-events"
+          element={<Events />}
           />
         </Routes>
       <Footer />

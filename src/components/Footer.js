@@ -12,7 +12,7 @@ function Footer() {
           <i class="fa-brands fa-linkedin"></i>
           <i class="fa-brands fa-instagram"></i>
         </div>
-        <div className='credits'>Developed By: <a href="malay">Malay Phadke</a></div>
+        <div className='credits'>Developed By: <a href="https://www.linkedin.com/in/malay-phadke/">Malay Phadke</a></div>
     </div>
   )
 }
