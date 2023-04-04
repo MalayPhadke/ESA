@@ -21,19 +21,56 @@
 
 .techno-hunt {
   background-color: black;
-  padding: 4rem;
+  padding: 1em;
   align-items: center;
   justify-content: center;
+}
+.innovation {
+  background-color: black;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+  padding-left: 18em;
+  padding-right: 18em;
 }
 h1.techno-hunt {
   padding-left: 18em;
 }
+h1.innovation {
+  padding-left: 12em;
+  color: aqua;
+}
 h3.tech {
-  padding-left: 11em;
+  padding-left: 15em;
+  color: aqua;
+}
+h3.innovation {
+  padding-left: 0em;
+  color: aqua;
 }
 p.tech {
-  padding-left: 14em;
+  padding-left: 18em;
   padding-right: 14em;
+}
+ul {
+  /* padding-left: 2rem; */
+  list-style-type: none;
+}
+
+ul.innovation li {
+  padding-left: 1.5em;
+  font-size: 20px;
+  background-image: url("./components/star.png");
+  background-size: 1.8rem 1.8rem;
+  background-repeat: no-repeat;
+}
+
+ul.rules li {
+  
+  padding-left: 1.5em;
+  background-image: url("./components/arrow.svg");
+  background-size: 1.2rem 1.2rem;
+  background-repeat: no-repeat;
 }
 .events {
   padding: 4rem;
@@ -42,7 +79,9 @@ p.tech {
   align-items: center;
   background-color: black;
 }
-  
+.bold {
+  color: aqua;
+} 
 table {
   border: 2px solid aqua;
   width: 800px;

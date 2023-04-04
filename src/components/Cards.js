@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import innovation from "./innovation.png";
 
 function Cards() {
   return (
@@ -10,19 +11,21 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items reveal'>
+          <CardItem
+              src={innovation}
+              label="Technical"
+              text='A competition dedicated to
+              promoting innovation and creativity in hardware design. We invite all
+              hardware design enthusiasts, engineers, and makers'
+              title="Innovation Cup'23"
+              path='/innovation'
+            />
             <CardItem
               src=""
               label="Technical"
               text='Join with your friends for fun day of simulation, testing and troubleshooting'
               title='Techno Hunt'
               path='/techno-hunt'
-            />
-            <CardItem
-              src=""
-              label="Technical"
-              text='Think you are have good knowledge of circuit? Compete with others to show them whos best!'
-              title='Tech KBC'
-              path='/events'
             />
           </ul>
         </div>

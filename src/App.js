@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import { useState } from 'react';
 import TechnoHunt from "./components/TechnoHunt";
 import Events from './Events';
+import InnovationCup from './components/InnovationCup';
 
 function App() {
   const [renderTeam, setRenderTeam] = useState(false);
@@ -18,10 +19,16 @@ function App() {
             path='/'
             element={<Home renderTeam={renderTeam} setRenderTeam={setRenderTeam}/>}
           />
+
           <Route
           path="/techno-hunt"
           element={<TechnoHunt />}
           />
+          <Route
+          path="/innovation"
+          element={<InnovationCup />}
+          />
+          
           <Route
           path="/all-events"
           element={<Events />}
